@@ -1,0 +1,9 @@
+**/__pychache__
+**/*.py[cod]
+
+**/*.swp
+**/*.swo
+
+**/.coverag
+**/*sqlite3
+
