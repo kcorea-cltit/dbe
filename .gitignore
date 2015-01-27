@@ -5,5 +5,5 @@
 **/*.swo
 
 **/.coverag
-**/*sqlite3
+**/*dbe.db
 
