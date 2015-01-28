@@ -1,0 +1,1 @@
+<html><body>You are being <a href="https://github.com/akulakov/django/blob/master/dbe/shared/templatetags/dbetags.py">redirected</a>.</body></html>
