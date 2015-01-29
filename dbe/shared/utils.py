@@ -1,6 +1,5 @@
 # Imports {{{
 from collections import OrderedDict, Callable
-from string import join
 
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
@@ -163,7 +162,7 @@ def defdict_to_odict(defdict):
     return defdict_to_dict(defdict, OrderedDict)
 
 def cjoin(lst):
-    return join(lst, ", ")
+    return ', '.join(lst)
 
 def float_or_none(val):
     return float(val) if val not in ('', None) else None
